@@ -46,7 +46,6 @@ h1{
     font-weight: bold;}
 
  .header .headerNave{
-
     list-style: none;
     display: inline-flex;
     gap: 15px;
@@ -61,3 +60,69 @@ h1{
     color: black;
     transition-duration: 0.5s;
  }
+
+ .dicoverNewCollection {
+    position: relative;
+    height: 712px;
+    width: 100%;
+    background-image: url("assets/dicoverNewCollection.png");
+    background-size: cover;
+    background-position: center;
+ 
+  
+   
+ }
+.dicoverNewCollection .dicoverContainer{
+        position: absolute;
+        right: 50px;
+        bottom: 150px;
+        display: flex;
+        height: 443px;
+        width:643px;
+        background-color:#FFF3E3;
+        border-radius: 10px;
+        padding: 20px;
+
+    }
+    .dicoverNewCollection .dicoverContainer .dicoverText h1{
+        font-size: 50px;
+        color: #B88E2F;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+    .dicoverNewCollection .dicoverContainer .dicoverText h6{
+        font-size: 20px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+  
+    }
+.dicoverNewCollection .dicoverContainer .dicoverText{
+    font-size: 30px;
+    direction: none;
+    flex-direction: column;
+    padding: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+    .dicoverNewCollection .dicoverContainer .buyNow{
+      display: flex;
+      justify-self: left;
+    
+        background-color: #B88E2F;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-decoration: none;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        height: 50px;
+        width: 200px;
+    }
+  
