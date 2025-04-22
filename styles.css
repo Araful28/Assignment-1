@@ -125,4 +125,36 @@ h1{
         height: 50px;
         width: 200px;
     }
+
+    .browserRange{
+       justify-content: center;
+       justify-items: center;
+    }
+  .browserRange h1{
+    padding:20px 0 5px 0;
+    margin: 0;
+  }
+  .browserRange h3{
+    padding:0 0 30px 0;
+    margin: 0 ;
+  }
+
   
+  .timingCart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; /* optional: makes it responsive */
+}
+
+.diningCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.diningCart h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
